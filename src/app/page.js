@@ -52,7 +52,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-wrap w-full gap-[3vh]">
+        <div className="flex flex-wrap w-full gap-[3vh] text-xl">
           <FaGithub className="w-1/4 text-[1.5em] cursor-pointer hover:scale-105 transition-all duration-200" onClick={() => window.open("https://github.com/arajshow", '_blank')} />
           <FaLinkedin className="w-1/4 text-[1.5em] cursor-pointer hover:scale-105 transition-all duration-200" onClick={() => window.open("https://www.linkedin.com/in/arajshow/", '_blank')} />
           <FaLink className="w-1/4 text-[1.5em] cursor-pointer hover:scale-105 transition-all duration-200" onClick={() => window.open("https://drive.google.com/file/d/1Tm-7WBovD5tYuF-xYWFOEuRar731XE42/view?usp=sharing", '_blank')} />
